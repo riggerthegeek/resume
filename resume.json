@@ -1,0 +1,143 @@
+{
+  "basics": {
+    "name": "Simon Emms",
+    "label": "Senior Software Engineer",
+    "picture": "http://simonemms.com/img/face.jpg",
+    "email": "simon@simonemms.com",
+    "website": "http://simonemms.com",
+    "summary": "I write great software and inspire others to do so too.",
+    "location": {
+      "city": "Cheltenham",
+      "region": "UK"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "RiggerTheGeek",
+      "url": "https://twitter.com/RiggerTheGeek"
+    }, {
+      "network": "LinkedIn",
+      "username": "simonemms",
+      "url": "https://uk.linkedin.com/in/simonemms"
+    }, {
+      "network": "GitHub",
+      "username": "RiggerTheGeek",
+      "url": "https://github.com/RiggerTheGeek"
+    }, {
+      "network": "Skype",
+      "username": "RiggerTheGeek",
+      "url": "skype:riggerthegeek?chat"
+    }]
+  },
+  "work": [{
+    "company": "Pied Piper",
+    "website": "http://piedpiper.com",
+    "position": "CEO/President",
+    "startDate": "2013-12-01",
+    "endDate": "2014-12-01",
+    "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+    "highlights": [
+      "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+      "Successfully won Techcrunch Disrupt",
+      "Optimized an algorithm that holds the current world record for Weisman Scores"
+    ]
+  }],
+  "education": [{
+    "institution": "University of Wales, Aberystwyth",
+    "gpa": "2:2",
+    "startDate": "2001-09-01",
+    "endDate": "2004-07-01",
+    "area": "International Politics"
+  }],
+  "skills": [{
+    "name": "JavaScript",
+    "level": "Master",
+    "keywords": [
+      "NodeJS",
+      "TypeScript",
+      "ES6",
+      "Express",
+      "Restify",
+      "AngularJS",
+      "ReactJS",
+      "VueJS",
+      "IOT",
+      "SocketIO"
+    ]
+  }, {
+    "name": "Data stores",
+    "level": "Advanced",
+    "keywords": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "UniVerse",
+      "Solr",
+      "ElasticSearch",
+      "RabbitMQ",
+      "Riak",
+      "Redis"
+    ]
+  }, {
+    "name": "DevOps",
+    "level": "Advanced",
+    "keywords": [
+      "Docker",
+      "Amazon Web Services",
+      "Let's Encrypt",
+      "Jenkins",
+      "CircleCI",
+      "Travis",
+      "Bamboo",
+      "Vagrant"
+    ]
+  }, {
+    "name": "Automation",
+    "level": "Master",
+    "keywords": [
+      "Ansible",
+      "Ant",
+      "Grunt",
+      "Gulp"
+    ]
+  }, {
+    "name": "Principles",
+    "level": "Advanced",
+    "keywords": [
+      "Design patterns",
+      "SOLID",
+      "TDD",
+      "BDD",
+      "Scrum",
+      "Kanban",
+      "Lean",
+      "Twelve Factor App"
+    ]
+  }, {
+    "name": "Version control",
+    "level": "Master",
+    "keywords": [
+      "Git",
+      "SVN"
+    ]
+  }],
+  "publications": [{
+    "name": "The Developers' Manifesto",
+    "releaseDate": "2016-04-01",
+    "website": "https://github.com/digital-guerrilla/developers-manifesto/blob/master/en/manifesto.md",
+    "summary": "A call-to-arms for developers, to express what we stand for and to help us remember what an amazing vocation we have."
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  }],
+  "references": [{
+    "name": "Danielle Evans",
+    "reference": "Simon was great to work with - he brought a wide range of skills to each project and was quite capable of looking outside those skills and learning new ones if the situation called for it. An enthusiastic, flexible and professional developer."
+  }, {
+    "name": "Roger Harvey",
+    "reference": "Whilst working alongside Simon, he impressed with his positive attitude, current skillset, ability to adapt, and amiable personality. The students of the lunchtime coding dojos he ran, will all testify to the valuable contribution Simon has made."
+  }, {
+    "name": "Ashley Finlayson",
+    "reference": "Simon was a great help to the digital team during his 7 months at Torpedo. He learnt our systems and processes quickly, hit the ground running on his projects, was happy to work overtime on rush projects and set us up with Linux cloud hosting. I would happily work with him again in the future."
+  }]
+}
