@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {
+    "serve": "resume serve --theme stackoverflow",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riggerthegeek/resume.git"
+  },
+  "author": "Simon Emms <simon@simonemms.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riggerthegeek/resume/issues"
+  },
+  "homepage": "https://github.com/riggerthegeek/resume#readme",
+  "private": true,
+  "devDependencies": {
+    "resume-cli": "^0.4.13"
+  }
+}
