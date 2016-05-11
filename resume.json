@@ -1,11 +1,12 @@
 {
   "basics": {
     "name": "Simon Emms",
-    "label": "Senior Software Engineer",
+    "label": "Contract NodeJS/JavaScript Engineer",
+    "phone": "01905 571175",
     "picture": "http://simonemms.com/img/face.jpg",
     "email": "simon@simonemms.com",
     "website": "http://simonemms.com",
-    "summary": "I write great software and inspire others to do so too.",
+    "summary": "I write great software and inspire others to do so too.\nI've worked in corporate teams and start-ups, yet they're all linked by the desire to have software that they can invest in for the long-term. With a decade of experience, my software is written with future maintainability in mind. I weed out technical debt and build in strength through solid principles rather than what is just the current buzzword.",
     "location": {
       "city": "Cheltenham",
       "region": "UK"
@@ -29,16 +30,150 @@
     }]
   },
   "work": [{
-    "company": "Pied Piper",
-    "website": "http://piedpiper.com",
-    "position": "CEO/President",
-    "startDate": "2013-12-01",
-    "endDate": "2014-12-01",
-    "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+    "company": "BrowserSpy",
+    "website": "https://browserspy.io",
+    "position": "Founder",
+    "location": {
+      "region": "Cheltenham"
+    },
+    "startDate": "2015-09-01",
+    "keywords": [
+      "NodeJS",
+      "TypeScript",
+      "MongoDB",
+      "Docker",
+      "Socket.io",
+      "Automation"
+    ],
+    "summary": "BrowserSpy is a testing tool that records all the interaction with a website so you can replay it later and see exactly what happened.",
     "highlights": [
-      "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-      "Successfully won Techcrunch Disrupt",
-      "Optimized an algorithm that holds the current world record for Weisman Scores"
+      "Written throughout in TypeScript, it features a socket-driven API and recorder and playback applications.",
+      "Built with continuous deployment at it's heart, it has a completely automated workflow, including deploying to Docker Cloud and generating new SSL certificates.",
+      "The API is built using Steeplejack, the recorder using VueJS and the playback app using AngularJS."
+    ]
+  }, {
+    "company": "Cromwell Tools",
+    "website": "https://www.cromwell.co.uk",
+    "position": "Lead engineer (contract)",
+    "location": {
+      "region": "Leicester"
+    },
+    "startDate": "2016-01-01",
+    "endDate": "2016-04-01",
+    "keywords": [
+      "NodeJS",
+      "ES6",
+      "MongoDB",
+      "Docker",
+      "RabbitMQ",
+      "Automation",
+      "Workshops"
+    ],
+    "summary": "Lead the NodeJS development team on a replacement API for the main website. This API had to work with all the existing internal systems. The team I worked with were experienced PHP developers, but didn’t know much about NodeJS and the tech stack being used so I ran weekly workshops to share my knowledge and experience.",
+    "highlights": [
+      "Established weekly coding dojos to allow team members to improve their NodeJS and JavaScript skills.",
+      "Managed the sprints and the whole agile process. The teams were spread across three different locations and, initially, the communication was poor. I rapidly improved this by tightening the agile disciplines.",
+      "Encouraged the adoption of microservices for admin processes, rather than a monolith."
+    ]
+  }, {
+    "company": "CDG Group",
+    "website": "https://groupcdg.com",
+    "position": "Software engineer (contract)",
+    "location": {
+      "region": "Sunningdale"
+    },
+    "startDate": "2015-10-01",
+    "endDate": "2016-01-01",
+    "keywords": [
+      "NodeJS",
+      "JavaScript",
+      "ES6",
+      "AngularJS",
+      "Automation",
+      "Socket.io"
+    ],
+    "summary": "I was recruited to provide AngularJS and D3 expertise. As a pure Java house, they had limited knowledge of front-end JavaScript. I improved their usage of AngularJS to provide a more consistent and easier development experience.",
+    "highlights": [
+      "Rewrote the front-end for their main Lean Client product. Although marketed as a single application, in reality it was a suite of software.",
+      "Created a Yeoman generator for fast construction of new AngularJS modules.",
+      "Developed a comprehensive form generator to enable the API to generate a schema that would display the user input in a consistent way."
+    ]
+  }, {
+    "company": "Wealth Wizards",
+    "website": "https://wealthwizards.com",
+    "position": "Software engineer (contract)",
+    "location": {
+      "region": "Leamington Spa"
+    },
+    "startDate": "2014-9-01",
+    "endDate": "2015-05-01",
+    "keywords": [
+      "NodeJS",
+      "PHP",
+      "AngularJS",
+      "D3",
+      "Automation",
+      "MongoDB"
+    ],
+    "summary": "Worked on both the front and back-end as part of a team that created an automated pension advice system. The API was written in PHP and generated a comprehensive question schema before calculating the pension advice. The front-end was an AngularJS app that managed the user experience, generating the forms from the JSON schema. Much of this was written as independent modules, such as an infographic project (built in D3) that consumed data and published defined shapes to either an AngularJS app or to the PDF report generator."
+  }, {
+    "company": "GeoPost",
+    "website": "https://dpd.co.uk",
+    "position": "Senior software engineer",
+    "location": {
+      "region": "Oldbury"
+    },
+    "startDate": "2012-10-01",
+    "endDate": "2014-08-01",
+    "keywords": [
+      "NodeJS",
+      "MongoDB",
+      "MySQL",
+      "Rocket UniVerse",
+      "Automation",
+      "Workshops"
+    ],
+    "summary": "Worked on the main DPD and Interlink RESTful API. Written in pure NodeJS, this is a business-critical service that handles web users, depot operations and receiving batch data from customers.",
+    "highlights": [
+      "Developed the industry-leading Follow My Parcel service, which allows live tracking of the driver and parcel and provides a realtime delivery window. This is the flagship of the company and deals with high traffic - for example, 698,349 transactions on Xbox One launch day and 854,025 on PS4 launch day.",
+      "Wrote a pure JavaScript driver for the Rocket UniVerse NoSQL database. This is a proprietary system that required reverse engineering of their Java driver. This database holds the main business data records and the driver reliably handles millions of requests per day.",
+      "Ran coding dojos to train all the developers in NodeJS. These sessions soon blossomed into discussions on test driven development, coding standards, automation and the like."
+    ]
+  }, {
+    "company": "Torpedo Group",
+    "website": "http://torpedogroup.com",
+    "position": "PHP developer (contract)",
+    "location": {
+      "region": "Oxfordshire"
+    },
+    "startDate": "2012-03-01",
+    "endDate": "2012-09-01",
+    "keywords": [
+      "PHP",
+      "MySQL"
+    ],
+    "highlights": [
+      "Built various websites using the MODX content management system.",
+      "Created a business analytics system for major clients to track engagers of their sites and social media accounts.",
+      "Made extensive use of responsive web design and Twitter Bootstrap to create mobile-first pages."
+    ]
+  }, {
+    "company": "BugFinders",
+    "website": "https://www.bugfinders.com",
+    "position": "Lead developer",
+    "location": {
+      "region": "Cheltenham"
+    },
+    "startDate": "2011-03-01",
+    "endDate": "2012-02-01",
+    "keywords": [
+      "PHP",
+      "MySQL"
+    ],
+    "highlights": [
+      "Built the alpha-release of the BugFinders project, featuring complexities such as a streaming video server, internationalization and responsive mobile site.",
+      "Also responsible for managing the development team, liaising with external suppliers and helping develop the business proposition.",
+      "The main development was in PHP/MySQL, however there was a great deal of time spent learning new technologies (such as OAuth, Java and Python) and learning testing methodologies."
     ]
   }],
   "education": [{
@@ -50,22 +185,18 @@
   }],
   "skills": [{
     "name": "JavaScript",
-    "level": "Master",
     "keywords": [
       "NodeJS",
       "TypeScript",
       "ES6",
+      "Promises",
       "Express",
       "Restify",
       "AngularJS",
-      "ReactJS",
-      "VueJS",
-      "IOT",
       "SocketIO"
     ]
   }, {
     "name": "Data stores",
-    "level": "Advanced",
     "keywords": [
       "MySQL",
       "PostgreSQL",
@@ -79,29 +210,24 @@
     ]
   }, {
     "name": "DevOps",
-    "level": "Advanced",
     "keywords": [
       "Docker",
       "Amazon Web Services",
+      "Ansible",
       "Let's Encrypt",
-      "Jenkins",
-      "CircleCI",
-      "Travis",
-      "Bamboo",
+      "Continuous Integration",
       "Vagrant"
     ]
   }, {
     "name": "Automation",
-    "level": "Master",
     "keywords": [
-      "Ansible",
+      "Yeoman",
       "Ant",
       "Grunt",
       "Gulp"
     ]
   }, {
     "name": "Principles",
-    "level": "Advanced",
     "keywords": [
       "Design patterns",
       "SOLID",
@@ -110,12 +236,14 @@
       "Scrum",
       "Kanban",
       "Lean",
-      "Twelve Factor App"
+      "Twelve Factor App",
+      "Microservices"
     ]
   }, {
-    "name": "Version control",
-    "level": "Master",
+    "name": "Other",
     "keywords": [
+      "PHP",
+      "Python",
       "Git",
       "SVN"
     ]
@@ -125,10 +253,11 @@
     "releaseDate": "2016-04-01",
     "website": "https://github.com/digital-guerrilla/developers-manifesto/blob/master/en/manifesto.md",
     "summary": "A call-to-arms for developers, to express what we stand for and to help us remember what an amazing vocation we have."
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
+  }, {
+    "name": "Steeplejack",
+    "releaseDate": "2014-04-11",
+    "website": "https://www.npmjs.com/package/steeplejack",
+    "summary": "A scaffolding framework to facilitate quicker and scalable NodeJS development through reusable components and simple design patterns. It complies with the Twelve Factor App goals."
   }],
   "references": [{
     "name": "Danielle Evans",
