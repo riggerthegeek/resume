@@ -41,15 +41,17 @@
       "NodeJS",
       "TypeScript",
       "MongoDB",
+      "MySQL",
       "Docker",
       "Socket.io",
-      "Automation"
+      "Automation",
+      "Microservices"
     ],
     "summary": "BrowserSpy is a testing tool that records all the interaction with a website so you can replay it later and see exactly what happened.",
     "highlights": [
       "Written throughout in TypeScript, it features a socket-driven API and recorder and playback applications.",
       "Built with continuous deployment at it's heart, it has a completely automated workflow, including deploying to Docker Cloud and generating new SSL certificates.",
-      "The API is built using Steeplejack, the recorder using VueJS and the playback app using AngularJS."
+      "The whole stack is built from 10+ microservices."
     ]
   }, {
     "company": "Cromwell Tools",
