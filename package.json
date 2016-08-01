@@ -4,6 +4,8 @@
   "description": "My resume",
   "main": "index.js",
   "scripts": {
+    "compile": "resume export resume.json --theme stackoverflow",
+    "publish": "resume publish resume.json --theme stackoverflow",
     "serve": "resume serve --theme stackoverflow",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
